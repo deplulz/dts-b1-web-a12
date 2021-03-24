@@ -1,6 +1,32 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-  
+  .lesson {
+    float: left;
+    width: 50%;
+    margin-top: 5px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  #menu {
+    margin: -100px 0 0 -65px;
+  }
+
+  #menuToggle {
+    display: block;
+    position: relative;
+    top: 22px;
+    left: 10px;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+  }
 }
 
 /* Untuk Smartphone */
@@ -11,5 +37,25 @@
   
   .menu-icon {
     display: block;
+  }
+
+  .lesson {
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  #menu {
+    margin: -100px 0 0 -65px;
+  }
+
+  #menuToggle {
+    display: block;
+    position: relative;
+    top: 22px;
+    left: 10px;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
   }
 }
