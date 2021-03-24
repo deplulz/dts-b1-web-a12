@@ -16,3 +16,4 @@ Tujuan dari proyek ini adalah untuk membuat halaman web bebas (contoh: profil pe
 - **M Garis Rozzaqiwin** (0970777141-25)
 - **Nadiya Fahada** (0970777060-3)
 - **Tri Yudha** (0970777301-2)
+
