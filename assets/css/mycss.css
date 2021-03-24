@@ -41,12 +41,12 @@ a {
 }
 
 .top-wrapper {
-  padding: 395px 0 100px 0;
+  /*padding: 395px 0 100px 0;
   background-image: url("../img/2656156.jpg");
-  background-size: cover;
+  background-size: cover;*/
   color: rgb(5, 3, 3);
   text-align: center;
-  background-position: center center;
+  position: relative;
 }
 
 .top-wrapper h1 {
@@ -62,6 +62,19 @@ a {
   margin-bottom: 3px;
   font-family: "Cormorant Infant", serif;
   font-size: 20px;
+}
+
+.top-background{
+  max-width: 100%;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.top-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .btn-wrapper {
