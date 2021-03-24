@@ -41,9 +41,6 @@ a {
 }
 
 .top-wrapper {
-  /*padding: 395px 0 100px 0;
-  background-image: url("../img/2656156.jpg");
-  background-size: cover;*/
   color: rgb(5, 3, 3);
   text-align: center;
   position: relative;
@@ -51,7 +48,6 @@ a {
 
 .top-wrapper h1 {
   opacity: 0.7;
-  font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 10px;
   font-family: "Oxygen", sans-serif;
@@ -64,17 +60,18 @@ a {
   font-size: 20px;
 }
 
-.top-background{
+.top-background {
   max-width: 100%;
   vertical-align: middle;
   object-fit: cover;
+  margin: -5% -5% 0;
 }
 
 .top-content {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -10%);
 }
 
 .btn-wrapper {
