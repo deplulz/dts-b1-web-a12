@@ -36,6 +36,7 @@ a {
   background-size: cover;
   color: rgb(5, 3, 3);
   text-align: center;
+  background-position: center center;
 }
 
 .top-wrapper h1 {
