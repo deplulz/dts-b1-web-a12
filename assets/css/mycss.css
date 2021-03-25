@@ -236,19 +236,19 @@ footer {
 }
 
 .lessons a {
-    color: black;
+  color: black;
 }
 
 .lessons a:hover {
-    color: blue;
+  color: blue;
 }
 
 .col20 {
-    float: left;
-    width: 20%;
+  float: left;
+  width: 20%;
 }
 
 .col80 {
-    float: left;
-    width: 80%;
+  float: left;
+  width: 80%;
 }
