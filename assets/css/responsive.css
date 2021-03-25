@@ -1,6 +1,35 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
+  .lesson {
+    width: 20%;
+    margin-bottom: 50px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 34px;
+  }
+
+  .top-wrapper p {
+    font-size: 24px;
+  }
   
+  .top-wrapper {
+    padding: 200px 50px 100px 50px;
+    background-image: url("../img/6671-min.jpg");
+    background-size: cover;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .lesson img {
+    width: 100px;
+  }
+
+  .heading {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
 
 /* Untuk Smartphone */
@@ -12,7 +41,27 @@
   .menu-icon {
     display: block;
   }
+  
+  .lesson {
+    width: 100%;
+  }
 
+  .top-wrapper h1 {
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .lesson img {
+    width: 120px;
+  }
+
+  .top-wrapper {
+    padding: 100px 50px 100px 50px;
+    text-align: left;
+    max-width: 100%;
+    height: auto;
+  }
+  
   footer {
   	padding-bottom: 30px;
   	text-align: center;
