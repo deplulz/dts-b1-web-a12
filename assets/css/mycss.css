@@ -125,14 +125,14 @@ header {
 }
 
 .header-right a:hover {
-    color: #100dacb6;
+  color: #100dacb6;
 }
 
 .lesson img {
-    width: 150px;
-    border-radius:50%;
-    border: 1px solid black;
-    padding-top: 5px;
+  width: 150px;
+  border-radius:50%;
+  border: 1px solid black;
+  padding-top: 5px;
 }
 
 .lesson-wrapper {
@@ -236,19 +236,19 @@ footer {
 }
 
 .lessons a {
-    color: black;
+  color: black;
 }
 
 .lessons a:hover {
-    color: blue;
+  color: blue;
 }
 
 .col20 {
-    float: left;
-    width: 20%;
+  float: left;
+  width: 20%;
 }
 
 .col80 {
-    float: left;
-    width: 80%;
+  float: left;
+  width: 80%;
 }
