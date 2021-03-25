@@ -161,11 +161,7 @@ header {
 
 .lesson img {
   width: 150px;
-<<<<<<< HEAD
-  border-radius:50%;
-=======
   border-radius: 50%;
->>>>>>> Menggunakan 2 spasi untuk indentasi CSS
   border: 1px solid black;
   padding-top: 5px;
 }
