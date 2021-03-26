@@ -99,7 +99,7 @@ a {
 
 .facebook {
   background-color: #3b5998;
-  margin-right: 10px;
+  margin: 10px 0;
 }
 
 .twitter {
@@ -113,6 +113,7 @@ a {
   opacity: 0.8;
   border-radius: 4px;
   text-align: center;
+  width: 80%;
 }
 
 .btn:hover {
@@ -267,11 +268,11 @@ footer {
 }
 
 .lessons a {
-  color: black;
+  color: white;
 }
 
 .lessons a:hover {
-  color: blue;
+  color: black;
 }
 
 .col20 {

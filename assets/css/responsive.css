@@ -1,5 +1,14 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
+  .header-left {
+    margin-left: 50px;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: 25px;
+  }
+  
   .lesson {
     width: 20%;
     margin-bottom: 50px;
@@ -27,10 +36,23 @@
     padding-top: 40px;
     padding-bottom: 40px;
   }
+
+  .message-wrapper {
+    padding: 0 50px 50px 50px;
+    text-align: justify;
+  }
+
+  footer {
+    margin-left: 50px;
+  }
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+  .header-left {
+    margin-left: 20px;
+  }
+  
   .header-right {
     display: none;
   }
@@ -57,9 +79,13 @@
     max-width: 100%;
     height: auto;
   }
+
+  .btn {
+    width: 100%;
+  }
   
   footer {
   	padding-bottom: 30px;
   	text-align: center;
-  }
+  }  
 }
