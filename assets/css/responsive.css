@@ -45,6 +45,18 @@
   footer {
     margin-left: 50px;
   }
+
+  @keyframes slidein {
+    from {
+      margin-left: -5%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 20%;
+      width: 100%;
+    }
+  }
 }
 
 /* Untuk Smartphone */
@@ -87,5 +99,17 @@
   footer {
   	padding-bottom: 30px;
   	text-align: center;
-  }  
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: -15%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 15%;
+      width: 100%;
+    }
+  }
 }
