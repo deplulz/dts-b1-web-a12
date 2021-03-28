@@ -227,6 +227,12 @@ header {
   text-align: center;
 }
 
+.message-wrapper p {
+  text-indent: 20px;
+  letter-spacing: 2px;
+  padding-top: 20px;
+}
+
 .message {
   padding: 15px 40px;
   background-color: #5dca88;
