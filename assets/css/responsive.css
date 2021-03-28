@@ -112,4 +112,23 @@
       width: 100%;
     }
   }
+
+  #menu {
+    margin: -100px 0 0 -65px;
+  }
+
+  #menuToggle {
+    display: block;
+    position: relative;
+    top: 22px;
+    left: 10px;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .header-left {
+    float: right;
+    margin-right: 30%;
+  }
 }
