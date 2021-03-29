@@ -78,7 +78,7 @@
   }
 
   .top-wrapper h1 {
-    font-size: 26px;
+    font-size: 5vw;
     font-weight: bold;
   }
 
@@ -90,6 +90,10 @@
     text-align: left;
     max-width: 100%;
     height: auto;
+  }
+
+  .top-content {
+  transform: translate(-50%, -20%);
   }
 
   .btn {
@@ -130,5 +134,13 @@
   .header-left {
     float: right;
     margin-right: 30%;
+  }
+
+  .message-wrapper {
+    padding: 0 25px 50px;
+  }
+
+  .message-wrapper h2 {
+    text-align: center;
   }
 }

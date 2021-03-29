@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Oxygen:wght@300;400;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+:root {
+  --clr-black-olive-3: rgba(54, 56, 46, 0.5);
+  --clr-vermillion: rgb(226, 53, 18);
+  --clr-blue-sapphire: rgb(13, 82, 109);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -49,7 +55,7 @@ a {
 .top-wrapper h1,
 .top-wrapper h2 {
   opacity: 0.7;
-  margin-bottom: 10px;
+  margin-bottom: 0.1vw;
 }
 
 .top-wrapper h1 {
@@ -81,7 +87,7 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -20%);
+  transform: translate(-50%, 0%);
 }
 
 .btn-wrapper {
@@ -127,7 +133,8 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.548);
+  /* background-color: rgba(0, 0, 0, 0.548); */
+  background-color: var(--clr-black-olive-3);
   position: sticky;
   top: 0;
   z-index: 10;
@@ -157,7 +164,7 @@ header {
 }
 
 .header-right a:hover {
-  color: #100dacb6;
+  color: var(--clr-blue-sapphire);
 }
 
 .lesson img {
@@ -210,7 +217,7 @@ header {
   display: inline-block;
   margin-top: 15px;
   font-size: 15px;
-  color: #b3aeb5;
+  color: #5d5b5b;
 }
 
 .heading h3 {
@@ -241,7 +248,7 @@ header {
 }
 
 .active {
-  color: red !important;
+  color: var(--clr-vermillion) !important;
 }
 
 .message:active {
@@ -276,9 +283,9 @@ footer {
   color: white;
 }
 
-.lessons a:hover {
+/*.lessons a:hover {
   color: black;
-}
+}*/
 
 .col20 {
   float: left;
